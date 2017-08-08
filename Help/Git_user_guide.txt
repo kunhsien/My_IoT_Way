@@ -1,0 +1,20 @@
+Initial and add a new file=>
+git init # Change to directory.
+git add README.md
+git commit -m "commit message"
+git remote add origin https://github.com/[GITHUB_ACCOUNT]/[PROJECT_NAME].git 
+# Set the corresponding remote_path to the local directory.
+git push -u origin master
+
+Add a new file=>
+git status # Check which file had been modified.
+git add file_name # Add all of changed files.
+git commit -m "commit_message"
+git push -u origin master # Push and update the commit file to remote_path
+
+Pull file from GitHub server : 
+Method1 : git pull https://github.com/kunhsien/My_IoT_Way.git
+Method2 : git clone https://github.com/kunhsien/My_IoT_Way.git
+
+
+
